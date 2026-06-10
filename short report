@@ -1,0 +1,16 @@
+1. What image or video did you use?
+2. What objects were detected?
+
+I used a photo containing 4 people. The 4 people were recognized.
+
+3. Did the model detect them accurately?
+
+Yes, the model accurately identified the main objects in the image with a significantly high confidence score.
+
+4. What changes did you make to the code?
+
+In the provided base code, I changed the confidence threshold (yolov5.conf) from 0.50 to 0.30 and added a print statement (print(len(objects)))) to output the total number of detected objects.
+
+5. Why are README.md and requirements.txt important in open source projects?
+
+README.md is important because it provides essential documentation and guidelines on how to use the project, and requirements.txt ensures reproducibility by allowing other users to easily install the exact library dependencies needed to run the code.
